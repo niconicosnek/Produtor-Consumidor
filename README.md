@@ -9,11 +9,19 @@ deve-se apagar o buffer.txt.lock. Assim, antes de escrever ou ler um arquivo dev
 buffer.txt. O trabalho deverá ser feito usando a chamada fork. Exemplo de execução:
 
 $ ./produtor-consumidor
+
 [Consumidor] 91
+
 [Consumidor] 10
+
 [Produtor] 62
+
 [Consumidor] 33
+
 [Consumidor] 79
+
 [Produtor] 9
+
 [Produtor] 52
+
 [Produtor] 34
