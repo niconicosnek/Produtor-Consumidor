@@ -1,0 +1,14 @@
+PROBLEMAS:
+
+1- Gerenciar memória compartilhada;
+2- Verificar se o buffer está cheio;
+3- Verificar se o buffer está vazio;
+4- Separar os processos;
+5- Não usar mutex (Usar fork);
+
+NOTAS:
+
+<sys/wait.h> contém a função waitpid() para esperar a finalização dos processos;
+
+Ambos os processos, produtor e consumidor, herdam o descritor de arquivo do arquivo "buffer.txt" do processo pai. 
+Isso significa que ambos podem acessar e operar no mesmo arquivo.
